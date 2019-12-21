@@ -1,0 +1,21 @@
+{
+  "name": "printer-project",
+  "version": "1.0.0",
+  "description": "Impress Printer Services",
+  "author": "Fabio",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
